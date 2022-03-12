@@ -1,10 +1,8 @@
-# Bellabeat-Project
-
 # Sophie_Portfolio
 Data Analytics Portfolio
 
 # [Project 1: Cyclistic: Project Overview](https://github.com/sommyl/Sophie-Portfolio/blob/main/Cyclistic%20Project.md)
-* Design marketing strategies aimed at converting casual riders into annual members for a bikeshare company in Chicago
+* To analyse smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices and select one Bellabeat product to apply these insights to.
 
 ## Code Used
 **SQL Github:** https://github.com/sommyl/Sophie-Portfolio/blob/main/Cyclistic.sql
