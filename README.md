@@ -2,7 +2,7 @@
 Data Analytics Portfolio
 
 # [Project 1: Cyclistic: Project Overview](https://github.com/sommyl/Sophie-Portfolio/blob/main/Cyclistic%20Project.md)
-* To analyse smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices and select one Bellabeat product to apply these insights to.
+* To analyse smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices and apply these insights for marketing strategy for launch of a new smart device.
 
 ## Code Used
 **SQL Github:** https://github.com/sommyl/Sophie-Portfolio/blob/main/Cyclistic.sql
