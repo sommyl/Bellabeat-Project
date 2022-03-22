@@ -1,8 +1,9 @@
 # Sophie_Portfolio
 Data Analytics Portfolio
 
-# [Project 1: Cyclistic: Project Overview](https://github.com/sommyl/Sophie-Portfolio/blob/main/Cyclistic%20Project.md)
-* To analyse smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices and apply these insights for marketing strategy for launch of a new smart device.
+# [Project 2: Bellabeat: Project Overview](https://github.com/sommyl/Sophie-Portfolio/blob/main/Cyclistic%20Project.md) 
+* Bellabeat is a high-tech fitness smart device manufacturer focused on women.
+* The business task is to obtain insights on trends of smart device usage for marketing strategy.
 
 ## Code Used
 **SQL Github:** https://github.com/sommyl/Sophie-Portfolio/blob/main/Cyclistic.sql
@@ -11,21 +12,16 @@ Data Analytics Portfolio
 
 ## Data Cleaning
 
-The dataset contains 12 months rides information from Dec 2021 to Jan 2022 with 13 columns including
+The dataset contains personal tracker activity from thirty fitbit users for period from 03.12.2016-05.12.2016. The analysis is focused on the daily records log for exercise and sleep with following key information:-
 
-* Ride ID
-* Bike type
-* Start date and time
-* End date and time 
-* Start station name
-* Start station ID
-* End station name
-* End station ID
-* Start latitude
-* Start longtitude
-* End latitude
-* End longtitude
-* Member casual status
+* User ID
+* Activity Date/timestamp
+* Level of exercise intensity by minute (very active/moderately active/light active/sedentary)
+* Step count
+* Calory count
+* Total sleep time
+* Total time in bed
+* Total mets
 
 Following changes were made in the cleaning process
 
@@ -40,7 +36,7 @@ Following changes were made in the cleaning process
 ## EDA & Visualisation 
 Analysis is focused on observing difference in ride patterns between casual and member riders in order to derive insights for conversion strategy. All information given in the dataset has been utilised to construct analysis as follows
 * Number of rides and ride length (derived from rider ID and time information) have been compared between casuals and members by frequency of month, day of the week and time of the day in order to identify the optimum period for advertising with widest reach 
-* Start station and end station (pin dropped on the map based on latitude and longtitude) have been mapped out to find out concentration of ride locations between casuals and members and the optimum location for advertising
+* Only 24 users have recorded their sleep out of 33 users who recorded their daily exercise level.
 
 ![alt text](https://github.com/sommyl/Sophie-Portfolio/blob/main/month.png "Number of Trips and Trip Length by Month")
 ![alt text](https://github.com/sommyl/Sophie-Portfolio/blob/main/weekday.png "Number of Trips and Trip Length by Day of the Week")
