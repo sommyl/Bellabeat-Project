@@ -2,49 +2,57 @@
 Data Analytics Portfolio
 
 # [Project 2: Bellabeat: Project Overview](https://github.com/sommyl/Sophie-Portfolio/blob/main/Cyclistic%20Project.md) 
-* Bellabeat is a high-tech fitness smart device manufacturer focused on women.
+* Bellabeat is a high-tech wearable fitness smart device manufacturer focused on women.
 * The business task is to obtain insights on trends of smart device usage for marketing strategy.
 
 ## Code Used
-**SQL Github:** https://github.com/sommyl/Sophie-Portfolio/blob/main/Cyclistic.sql
+**SQL Github:** https://github.com/sommyl/Bellabeat-Project/blob/main/Bellabeat%20SQL%20Code.sql
 
 **Tableau:** https://public.tableau.com/app/profile/sophie.liu3966/viz/Cyclistic_16450573041030/Story1
 
 ## Data Cleaning
 
-The dataset contains personal tracker activity from thirty fitbit users for period from 03.12.2016-05.12.2016. The analysis is focused on the daily records log for exercise and sleep with following key information:-
+The dataset contains personal tracker activity from thirty-three fitbit devices for 3 months period from 12.3.2016-12.5.2016. The activity log records following key information
 
-* User ID
+* Device ID
 * Activity Date/timestamp
-* Level of exercise intensity by minute (very active/moderately active/light active/sedentary)
+* Exercise intensity level split by minutes and distance (very active/moderately active/light active/sedentary)
 * Step count
 * Calory count
+* Total metabolic equivalents
 * Total sleep time
 * Total time in bed
-* Total mets
 
 Following changes were made in the cleaning process
 
-*	Created a new table and used union all function to merge 12 CSV files of monthly ride information with in total c. 5 million rows 
-*	Created a new column for ride length as duration from start time to end time by using DATEDIFF fuction
-*	Created a new column for day of the week from start date by utilising DATENAME function to convert YYYYMMDD HH:MM:SS date format into day of the week  
-*	Shortened ride ID to save memory as this information is not critical
-*	Removed columns "End date and time" and "Station ID" as this information is redundant 
-*	Removed 2,207,583 rows for ride length less than 10 minutes as this is considered too short for trip length
-*	Removed 4,754 rows with nil latittude and longtitude due to incomplete information for geographic mapping
+*	Deleted columns "tracker distance" and "logged activity distance" which is duplicate information of another column
+*	Summed up total minutes recorded each day to check total minutes being recorded against a 24 hour day for completeness
+*	Distinct count of device ID reveals total sleep records of 24 vs total exercise records of 33
+*	Joined 3 tables to combine hourly calories, intensities and steps in one table on ID and activity hour with use of CTE
+*	Joined 3 tables to combine sleep, mets and exercise in one table with use of CTE
+*	Created day of the week based on activity date
+*	Created 2 categories of users with active users being defined as having on average 1 hour very active and faily active exercise per day with use of case function
+* Heartrate data has not been incorporated in analysis due to only 14 devices' data being captured.
 
 ## EDA & Visualisation 
-Analysis is focused on observing difference in ride patterns between casual and member riders in order to derive insights for conversion strategy. All information given in the dataset has been utilised to construct analysis as follows
-* Number of rides and ride length (derived from rider ID and time information) have been compared between casuals and members by frequency of month, day of the week and time of the day in order to identify the optimum period for advertising with widest reach 
-* Only 24 users have recorded their sleep out of 33 users who recorded their daily exercise level.
+* The device has not been worn or put in function all day at all times as shown in total hours tracked.
+* Exercise picks up after lunch and close to dinner time with active users engaging in more intensive exercise resulting in more calory burn.
+* There is slight variance of amount of exercies throughout the day of the week with highest step count and calory burn being recorded on the weekends.
+* Time in bed and time asleep is positively correlated. Active users spending less time in bed for same amount of time asleep. This could be due to more exercise help people sleep better or active people spending less sedentary time in bed. This finding is inclusive. 
 
 ![alt text](https://github.com/sommyl/Sophie-Portfolio/blob/main/month.png "Number of Trips and Trip Length by Month")
 ![alt text](https://github.com/sommyl/Sophie-Portfolio/blob/main/weekday.png "Number of Trips and Trip Length by Day of the Week")
 ![alt text](https://github.com/sommyl/Sophie-Portfolio/blob/main/hour.png "Number of Trips and Trip Length by Hour")
 ![alt text](https://github.com/sommyl/Sophie-Portfolio/blob/main/map.png "Map of Start and End Location")
 
+1. What are some trends in smart device usage?
+2. How could these trends apply to Bellabeat customers?
+3. How could these trends help influence Bellabeat marketing strategy?
+
 ## Recommendation
-In order to achieve maximum reach of casual riders, it is recommended that 
-* Advertisement is to be placed **during summer season** **on the weekend** **from 12pm to 5pm** as data indicated that this is when casual riders are most active measured by average number of trips taken.
-* The ideal location for advertising is **in Harbour and Millennium Park area** which captures higher density of start and end point for casual riders.
-* Based on ride length comparison which shows casuals takes longer rides in kms than members, the company could some form of communication as prompt at the end of each ride to recognise a milestone of kms achieved in comparison to an average member user to incentivise future rides which may subsequently result in member conversion.
+The selling point of Bellabeat is help users improve wellbeing and develop healthy habit by engaging in appropriate level of exercise and having sufficient good quality sleep.
+
+Following recommendation is based on insights from the dataset:-
+* Lacking of exercise or low level of exercise seem to be prevalent amongst majority of users - 4 active users defined as more than 1 hour of active and moderate exercise per day out of 33 devices being studied. Use of Bellbeat smart device serves as a reminder and incentive to keep up with fitness goals. Bellabeat should encourage device wear more frequently as data tracking shows not all 24 hour are tracked at all times. It is also recommended that an interactive report be provided to users with live syncing to monitor user activity against benchmark set by medical professionals to encourage users to be more active.
+* The popular time for exercise is after lunch and after work and on the weekends. Bellabeat could set up notifications in the timeblock to remind people to exercise.
+* Due to the positive correlation between time in bed and sleep time, Bellabeat could send reminders for people to go to bed at the recommended sleep hour by medical professionals.
