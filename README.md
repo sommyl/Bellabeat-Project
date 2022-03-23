@@ -8,7 +8,7 @@ Data Analytics Portfolio
 ## Code Used
 **SQL Github:** https://github.com/sommyl/Bellabeat-Project/blob/main/Bellabeat%20SQL%20Code.sql
 
-**Tableau:** https://public.tableau.com/app/profile/sophie.liu3966/viz/Cyclistic_16450573041030/Story1
+**Tableau:** https://public.tableau.com/app/profile/sophie.liu3966/viz/Bellabeat_16470858013980/Story1
 
 ## Data Cleaning
 
