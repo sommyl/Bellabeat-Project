@@ -42,10 +42,11 @@ Following changes were made in the cleaning process
 * Time in bed and time asleep is positively correlated. Active users spending less time in bed to get the same amount of sleep time. This could be due to the reason that more exercise help people sleep better or active users spend less sedentary time in bed, which is inclusive. 
 * Heartrate data has not been incorporated in the analysis due to small sample being collected.
 
-![alt text](https://github.com/sommyl/Sophie-Portfolio/blob/main/month.png "Number of Trips and Trip Length by Month")
-![alt text](https://github.com/sommyl/Sophie-Portfolio/blob/main/weekday.png "Number of Trips and Trip Length by Day of the Week")
-![alt text](https://github.com/sommyl/Sophie-Portfolio/blob/main/hour.png "Number of Trips and Trip Length by Hour")
-![alt text](https://github.com/sommyl/Sophie-Portfolio/blob/main/map.png "Map of Start and End Location")
+![alt text](https://github.com/sommyl/Bellabeat-Project/blob/main/Hours%20tracked.png "Hours Tracked")
+![alt text](https://github.com/sommyl/Bellabeat-Project/blob/main/Avg%20Activity%20Level%20by%20user%20status.png "Avg Activity Level by User Status")
+![alt text](https://github.com/sommyl/Bellabeat-Project/blob/main/Avg%20activity%20level%20by%20hour.png "Avg Activity Level by Hour")
+![alt text](https://github.com/sommyl/Bellabeat-Project/blob/main/Activity%20level%20by%20day%20of%20the%20week.png "Avg Activity Level by Day pf the Week")
+![alt text](https://github.com/sommyl/Bellabeat-Project/blob/main/Sleep%20time%20vs%20time%20in%20bed.png "Relationship between sleep time and time in bed")
 
 ## Recommendation
 The selling point of Bellabeat is help users improve wellbeing and develop healthy habit by engaging in appropriate level of exercise and having sufficient good quality sleep.
