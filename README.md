@@ -48,7 +48,7 @@ Following changes were made in the cleaning process
 ![alt text](https://github.com/sommyl/Bellabeat-Project/blob/main/Sleep%20time%20vs%20time%20in%20bed.png "Relationship between sleep time and time in bed")
 
 ## Recommendation
-The selling point of Bellabeat is help users improve wellbeing and develop healthy habit by engaging in appropriate level of exercise and having sufficient good quality sleep.
+The selling point of Bellabeat is to help users improve wellbeing and develop healthy habit by engaging in appropriate level of exercise and having sufficient good quality sleep.
 
 Following recommendation is based on insights from the dataset:-
 * **Lacking of exercise or low level of exercise** seem to be prevalent amongst majority of users (27 users have less than 1 hour moderate to intensive exercise daily out of 33 devices being studied). Use of Bellbeat smart device serves as a reminder and incentive to keep up with fitness goals. 
