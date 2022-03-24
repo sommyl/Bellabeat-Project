@@ -25,7 +25,7 @@ The dataset is made up of personal tracker activity from thirty-three fitbit dev
 
 Following changes were made in the cleaning process
 
-*	Deleted columns "tracker distance" and "logged activity distance" which is duplicate information of column "total distance"
+*	Deleted columns "tracker distance" and "logged activity distance" considered duplicate information to column "total distance"
 *	Summed up total minutes recorded each day to check against a 24 hour day for completeness
 *	Distinct count of device ID for sleep (24) and daily exercise (33)
 *	Joined 3 tables to combine hourly calories, intensities and steps in one table on ID and activity hour with use of the CTE function
