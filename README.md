@@ -3,7 +3,7 @@ Data Analytics Portfolio
 
 # [Project 2: Bellabeat: Project Overview](https://github.com/sommyl/Sophie-Portfolio/blob/main/Cyclistic%20Project.md) 
 * Bellabeat is a high-tech wearable fitness smart device manufacturer focused on women.
-* The business task is to obtain insights on trends of smart device usage for marketing strategy for product growth.
+* The business task is to obtain insights on trends of smart device usage for marketing strategy of product growth.
 
 ## Code Used
 **SQL Github:** https://github.com/sommyl/Bellabeat-Project/blob/main/Bellabeat%20SQL%20Code.sql
