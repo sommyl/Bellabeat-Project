@@ -52,6 +52,6 @@ The selling point of Bellabeat is to help users improve wellbeing and develop he
 
 Following recommendation is based on insights from the dataset:-
 * **Lacking of exercise or low level of exercise** seem to be prevalent amongst majority of users (27 users have less than 1 hour moderate to intensive exercise daily out of 33 devices being studied). Use of Bellbeat smart device serves as a reminder and incentive to keep up with fitness goals. 
-* Bellabeat should encourage device wear more frequently as data tracking shows **not all 24 hour** are tracked at all times. It is also recommended that an interactive report be provided to users with live syncing to monitor user activity against benchmark set by medical professionals to encourage users to be more active.
+* Bellabeat should encourage device wear more frequently as data tracking shows **not all 24 hour** are tracked at all times. It is also recommended that an interactive report be provided to users with live syncing to monitor user activity against benchmark set by medical professionals in order to encourage users to be more active.
 * The popular time for exercise is **between 12pm-2pm and 5pm and 7pm** and users exercise more **on the weekends** than weekdays. Bellabeat could set up notifications in the identified time blocks to remind people to exercise.
 * Due to **the positive correlation between time in bed and sleep time**, Bellabeat could send reminders for people to go to bed at the recommended sleep hour by medical professionals.
