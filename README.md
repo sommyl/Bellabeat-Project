@@ -37,7 +37,7 @@ Following changes were made in the cleaning process
 * The users have not worn or used the device all day at all times as shown in total hours tracked less than 24 hours.
 * Considerable gap exists between active users and less active users measured by average activity level per day.
 * Exercise activity picks up during 12pm-2pm and 5pm-7pm with active users engaging in more intensive exercise resulting in more calorie burn.
-* There is slight variance of amount of exercies throughout the week with highest step count and calorie burn being recorded on the weekends.
+* There is slight variance of amount of exercise throughout the week with highest step count and calorie burn being recorded on the weekends.
 * Time in bed and time asleep is positively correlated. Active users spending less time in bed to get the same amount of sleep time. This could be due to the reason that more exercise help people sleep better or active users spend less sedentary time in bed, which is inclusive. 
 * Heartrate data has not been incorporated in the analysis due to small sample being collected.
 
