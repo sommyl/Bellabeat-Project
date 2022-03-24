@@ -34,7 +34,7 @@ Following changes were made in the cleaning process
 *	Created 2 categories of users with active users being defined as having on average 1 hour very active and fairly active exercise per day (case function)
 
 ## EDA & Visualisation 
-* The device has not been worn or put in function all day at all times as shown in total hours tracked less than 24 hours.
+* The users have not worn or used the device all day at all times as shown in total hours tracked less than 24 hours.
 * Considerable gap exists between active users and less active users measured by average activity level per day.
 * Exercise activity picks up during 12pm-2pm and 5pm-7pm with active users engaging in more intensive exercise resulting in more calorie burn.
 * There is slight variance of amount of exercies throughout the week with highest step count and calorie burn being recorded on the weekends.
