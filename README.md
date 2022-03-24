@@ -38,7 +38,7 @@ Following changes were made in the cleaning process
 * Considerable gap exists between active users and less active users measured by average activity level per day.
 * Exercise activity picks up during 12pm-2pm and 5pm-7pm with active users engaging in more intensive exercise resulting in more calorie burn.
 * There is slight variance of amount of exercise throughout the week with highest step count and calorie burn being recorded on the weekends.
-* Time in bed and time asleep is positively correlated. Active users spending less time in bed to get the same amount of sleep time. This could be due to the reason that more exercise help people sleep better or active users spend less sedentary time in bed, which is inclusive. 
+* Time in bed and time asleep is positively correlated. Active users spending less time in bed to get the same amount of sleep. This could be due to the reason that more exercise help people sleep better or active users spend less sedentary time in bed, which is inclusive. 
 * Heartrate data has not been incorporated in the analysis due to small sample being collected.
 
 ![alt text](https://github.com/sommyl/Bellabeat-Project/blob/main/Hours%20tracked.png "Hours Tracked")
